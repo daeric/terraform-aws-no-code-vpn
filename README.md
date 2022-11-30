@@ -1,25 +1,16 @@
 # Terraform No-Code Module to Deploy and Setup AWS VPC/VPN modules for On-Prem Connectivity
 
 
-Required Inputs
+# Required Inputs:
 
 
-#These variables must be set in the module block when using this module.
+Gateway IP Space
 
 
-gateway_address_space string
+Gateway IP Address
 
 
-Description: Gateway IP Space
-
-
-gateway_ip_address string
-
-
-Description: Gateway IP Address
-
-
-This module defines 13 resources.
+# This module defines 13 resources:
 
 
 aws_customer_gateway.my_gateway
@@ -64,22 +55,16 @@ aws_vpn_gateway.vpn_gateway
 aws_tunnel1_public_ip
 
 
-Description: AWS VPN Tunnel 1 Public IP
+# Outputs:
 
 
-aws_tunnel1_shared_key
+AWS VPN Tunnel 1 Public IP
 
 
-Description: AWS VPN Tunnel 1 Shared Key
+AWS VPN Tunnel 1 Shared Key
 
 
-aws_tunnel2_public_ip
+AWS VPN Tunnel 2 Public IP
 
 
-Description: AWS VPN Tunnel 2 Public IP
-
-
-aws_tunnel2_shared_key
-
-
-Description: AWS VPN Tunnel 2 Shared Key
+AWS VPN Tunnel 2 Shared Key
