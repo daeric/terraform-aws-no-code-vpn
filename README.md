@@ -25,7 +25,7 @@ AWS VPN Tunnel 2 Public IP
 AWS VPN Tunnel 2 Shared Key
 
 
-# This module defines 13 resources:
+# This Module Defines 13 Resources:
 
 
 aws_customer_gateway.my_gateway
