@@ -10,6 +10,21 @@ Gateway IP Space
 Gateway IP Address
 
 
+# Outputs:
+
+
+AWS VPN Tunnel 1 Public IP
+
+
+AWS VPN Tunnel 1 Shared Key
+
+
+AWS VPN Tunnel 2 Public IP
+
+
+AWS VPN Tunnel 2 Shared Key
+
+
 # This module defines 13 resources:
 
 
@@ -53,18 +68,3 @@ aws_vpn_gateway.vpn_gateway
 
 
 aws_tunnel1_public_ip
-
-
-# Outputs:
-
-
-AWS VPN Tunnel 1 Public IP
-
-
-AWS VPN Tunnel 1 Shared Key
-
-
-AWS VPN Tunnel 2 Public IP
-
-
-AWS VPN Tunnel 2 Shared Key
